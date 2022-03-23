@@ -1,0 +1,99 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+   
+}
+    
+ 
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {    
+.hidden-img{
+  visibility: hidden;
+}
+.mainImg{
+    width: 100%;
+}
+.navTogel{
+    float:left;
+}
+.NavBar{
+    width: 100%;
+}
+.partArtical{
+   width: 70%;
+}
+.CardIn{
+   padding-left: 13vh;
+   padding-bottom: 6vh;
+}
+.my-img{
+    width: 505px;
+    height: 359px;
+}
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.hidden-img{
+        visibility: hidden;
+    }
+    .imgpartTwe{
+        visibility: hidden;
+
+    }
+    .part-twe{
+        display: flex;
+        flex-direction: row;
+    }
+    .partArtical{
+        display: flex;
+    }
+    .partOne{
+        width: 50%;
+    }
+    .partTwe{
+        width: 50%;
+    }
+    .imgNatural{
+        margin-top: 10vh;
+      
+    
+    }
+    .imgNaturally{
+        margin-top: 10vh;
+       
+    }
+    .mainImg{
+        background-image: url(../img/naturl.png); 
+        height: 600px;
+    }
+    footer{
+        margin-top: 10vh;
+        color: white;
+        width: 100% ; 
+        padding: 6vh;
+        background-color: rgb(31, 31, 31);
+        font-family: natos;
+    
+    }
+    .contactWith{
+        margin-bottom: 15px;
+    }
+    .endIcon {
+        margin-left: -42px;
+    }
+  
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+     
+ }

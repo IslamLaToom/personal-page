@@ -1,0 +1,553 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+body {
+  background-color: #000;
+}
+
+.toggea {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.toggea.dark {
+  color: #fff;
+}
+
+header div {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+header div .Pone {
+  color: #fff;
+}
+
+header div nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header div a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+header div a:hover {
+  color: dodgerblue;
+}
+
+header div img {
+  width: 100px;
+  height: 60px;
+}
+
+header div li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+.text1 {
+  margin-left: 10%;
+  margin-top: 13%;
+}
+
+h1 {
+  font-size: 50px;
+  color: #fff;
+  margin: 10px;
+}
+
+.name {
+  color: dodgerblue;
+}
+
+p {
+  color: #555555;
+  line-height: 22px;
+}
+
+.text1 {
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.text1 a {
+  background: #fff;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5%;
+}
+
+div .imges {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+div .shado {
+  width: 80%;
+  height: 100%;
+  margin-left: 80px;
+  border-radius: 50%;
+  background: -webkit-gradient(linear, left top, left bottom, from(dodgerblue), to(#fff));
+  background: linear-gradient(dodgerblue, #fff);
+}
+
+div .esla {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: bottom 1s , left 1s;
+  transition: bottom 1s , left 1s;
+}
+
+.box-container {
+  min-height: 100vh;
+  background: url("../img/") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 60px;
+}
+
+.box-container .title {
+  color: #fff;
+}
+
+.box-container .box {
+  height: 400px;
+  width: 280px;
+  border: 8px solid #fff;
+  -webkit-box-shadow: 0 3px 5px #000;
+          box-shadow: 0 3px 5px #000;
+  overflow: hidden;
+  margin: 20px 15px;
+}
+
+.box-container .box img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.box-container .box:hover img {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.box-container .box .info {
+  text-align: center;
+  background: #fff;
+  position: relative;
+  bottom: 40px;
+}
+
+.box-container .box:hover .info {
+  bottom: 128px;
+}
+
+.box-container .box .info .title {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.box-container .box .info .post {
+  padding: 15px;
+  color: #999;
+}
+
+.box-container .box .info .share {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+}
+
+.box-container .box .info .share a {
+  font-size: 20px;
+  margin: 20px 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+main .hone {
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom: 60px;
+  font-weight: 400;
+  position: relative;
+}
+
+main .hone::after {
+  content: '';
+  background: #303ef7;
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+main div .sec {
+  font-family: 'Roboto' , sans-serif;
+  max-width: 1100px;
+  text-align: center;
+}
+
+main div .tex1 {
+  font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  color: dodgerblue;
+  text-align: center;
+}
+
+main div .tex2 {
+  color: #777;
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+main div .imgea {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main div .logo1 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-left: 600px;
+}
+
+main div p {
+  width: 800px;
+  margin-left: 300px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 20px;
+}
+
+main div .btn {
+  margin-left: 550px;
+  display: inline-block;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f6f6f6;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #777;
+  border-radius: 10px;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+main div .btn:hover {
+  background-color: #dadada;
+  color: dodgerblue;
+}
+
+main main .tex1 {
+  font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+main main .tex2 {
+  color: #777;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+main main .imgea {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+main main .logo1 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+main main .p {
+  font-size: 20px;
+  color: #fff;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+main main .btn {
+  display: inline-block;
+  padding: 1rem;
+  background: #f6f6f6;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #777;
+  border-radius: 10px;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+main main .btn:hover {
+  background-color: #dadada;
+}
+
+div .htwo {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 5%;
+  margin-bottom: 10px;
+  font-weight: 400;
+  position: relative;
+}
+
+div .htwo::after {
+  content: '';
+  background: #303ef7;
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+footer div .hthere {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-weight: 400;
+  margin-left: 500px;
+  position: relative;
+}
+
+footer div .hthere::after {
+  content: '';
+  background: #303ef7;
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer div form {
+  width: 450px;
+  margin-left: 200px;
+}
+
+footer div input, footer div textarea {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid dodgerblue;
+  -webkit-box-shadow: inset 0 1px 5px dodgerblue;
+          box-shadow: inset 0 1px 5px dodgerblue;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  outline: none;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+footer div:hover .send-btn {
+  background-color: #fff;
+  color: dodgerblue;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer div span {
+  color: #9b9999;
+}
+
+footer .logo3 {
+  width: 500px;
+}
+
+section .container {
+  width: 100%;
+  height: 300px;
+  padding: 0 8%;
+}
+
+section h1 {
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom: 60px;
+  font-weight: 400;
+  position: relative;
+}
+
+section h1::after {
+  content: '';
+  background: #303ef7;
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+section .row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+section .server {
+  text-align: center;
+  padding: 25px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  background: transparent;
+  -webkit-transition: background 0.5s, -webkit-transform 0.5s;
+  transition: background 0.5s, -webkit-transform 0.5s;
+  transition: transform 0.5s, background 0.5s;
+  transition: transform 0.5s, background 0.5s, -webkit-transform 0.5s;
+  cursor: pointer;
+  background: transparent;
+}
+
+section .server a {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #303ef7;
+}
+
+section .server a:hover {
+  color: #fff;
+}
+
+section .server h2 {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #fffefe;
+}
+
+section .server:hover {
+  background: #303ef7;
+  color: #fff;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+section #message {
+  position: absolute;
+  bottom: -30px;
+  color: #fff;
+  font-size: 15px;
+  display: none;
+}
+
+section ::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+section :-ms-input-placeholder {
+  font-size: 15px;
+}
+
+section ::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+section ::placeholder {
+  font-size: 15px;
+}
+/*# sourceMappingURL=main.css.map */
